@@ -1,7 +1,3 @@
-Linux Standard Base commands
-
-Commands defined in the Linux Standard Base 4.1:
-http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/cmdbehav.html
-
-Downloadable as one big file from:
-http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic.html
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fa07d4a3defe60edb04fd0cff2572c91a3002e99adfc5de14efe766ef9b20ae
+size 294

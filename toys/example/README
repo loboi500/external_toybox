@@ -1,14 +1,3 @@
-Example commands
-
-You probably don't want to deploy any of this.
-
-The hello.c and skeleton.c commands provide templates for new commands:
-hello.c is clean and simple, skeleton.c demonstrates the option parsing
-infrastructure and having multiple commands per file. When writing a new
-command, copying hello.c or skeleton.c to the new name may provide a good
-starting point. (The minimal staring point is toys/posix/false.c)
-
-The demo_* commands demonstrate infrastructure, and do regression testing.
-
-Other commands in here are obsolete versions still in some recent Linux systems
-(and often still in posix), but not really useful on modern systems.
+version https://git-lfs.github.com/spec/v1
+oid sha256:39b1bd1fa4d5b734b8901d045a24e33f5fd5a669dda8fb0f0d550733eae2012a
+size 649

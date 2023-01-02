@@ -1,24 +1,3 @@
-#!/bin/bash
-
-set -e
-
-rm -rf .config generated/ android/
-
-function generate() {
-  which=$1
-  echo -e "\n-------- $1\n"
-
-  # These are the only generated files we actually need.
-  files="config.h flags.h globals.h help.h newtoys.h tags.h"
-
-  cp .config-$which .config
-  NOBUILD=1 scripts/make.sh
-  out=android/$which/generated/
-  mkdir -p $out
-  for f in $files; do cp generated/$f $out/$f ; done
-  rm -rf .config generated/
-}
-
-generate "device"
-generate "linux"
-generate "mac"
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d63ebed2e16902f4a173f1a0f98038e765ade36993e27b8a1b579c7692e7c73
+size 476

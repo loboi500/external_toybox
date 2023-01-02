@@ -1,7 +1,3 @@
-{
-  "presubmit": [
-    {
-      "name": "toybox-tests"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc2f3d35194addd5ab430c329066ac174ab1c70b5a6bc7be6151353ec23b35f9
+size 66
